@@ -1,4 +1,2 @@
-def solution(my_string, m, c):
-    a = [my_string[i:i+m] for i in range(0, len(my_string), m)]
-    answer = "".join([a[i][c-1] for i in range(0, len(a))])
-    return answer
+def solution(s, m, c):
+    return s[c-1::m]
