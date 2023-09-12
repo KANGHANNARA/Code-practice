@@ -1,5 +1,6 @@
 def solution(s):
     answer = ''
+    
     st = s.split(" ")
     for i in st:
         i = i.capitalize()
