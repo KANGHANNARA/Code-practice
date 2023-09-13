@@ -7,6 +7,7 @@ def solution(n):
             if s == n:
                 cnt += 1
                 break
-            elif s >n:
+            elif s > n:
                 break
+            
     return cnt
