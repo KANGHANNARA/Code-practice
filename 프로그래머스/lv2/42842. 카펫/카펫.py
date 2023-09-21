@@ -7,5 +7,4 @@ def solution(brown, yellow):
             if a >= b:                      # a >= b
                 if 2*a + 2*b == brown + 4:  # 2*a + 2*b = brown + 4 
                     return [a,b]
-            
     return answer
