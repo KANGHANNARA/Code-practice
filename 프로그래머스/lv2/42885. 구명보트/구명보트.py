@@ -1,4 +1,3 @@
-import itertools
 def solution(people, limit):
     people.sort()
     answer = 0 # 2명의 사람을 구해서 나간 구명보트 
